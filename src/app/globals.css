@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+::selection {
+  background-color: #3b82f6;
+  color: #ffffff;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
