@@ -40,9 +40,9 @@ const { options, selectHeader } = selectTextContent;
 // Styles
 const styles = {
   button: {
-    text: "bg-blue-500 text-white px-4 py-[7px] rounded-md max-lg:w-full",
-    icon: "bg-transparent absolute bottom-4 right-2 border border-black rounded-md p-1",
-    copied: "border-green-400",
+    text: "bg-blue-600 hover:bg-blue-700 text-white px-4 py-[7px] rounded-md max-lg:w-full",
+    icon: "bg-transparent hover:bg-sky-200 absolute bottom-4 right-2 border border-blue-600 rounded-md p-1",
+    copied: "border-blue-400",
   },
 };
 

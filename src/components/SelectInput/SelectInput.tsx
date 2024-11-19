@@ -20,8 +20,7 @@ type SelectInputProps = {
 const styles = {
   container: "mb-0 w-full",
   label: "block font-semibold mb-1",
-  select:
-    "w-full border rounded-md text-slate-950 resize-none outline-none cursor-pointer",
+  select: "w-full border rounded-md resize-none outline-none cursor-pointer",
 };
 
 const SelectInput = ({
@@ -46,7 +45,7 @@ const SelectInput = ({
         title={elementTitle}
         value={elementValue}
         onChange={onValueChange}
-        className={`${styles.select} ${styling}`}
+        className={`${styles.select} ${styling} bg-gray-900 border-gray-600 text-gray-300`}
       >
         <option value={primaryOptionValue}>{primaryOptionLabel}</option>
         <option value={secondaryOptionValue}>{secondaryOptionLabel}</option>

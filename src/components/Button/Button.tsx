@@ -11,7 +11,8 @@ type ButtonProps = {
   children?: string | JSX.Element | JSX.Element[] | "() => JSX.Element";
 };
 
-const baseStyles = "outline-none disabled:bg-green-400";
+const baseStyles =
+  "outline-none disabled:bg-green-600 disabled:border-transparent";
 
 const Button = ({
   identifier,

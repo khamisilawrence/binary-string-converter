@@ -15,7 +15,8 @@ type TextareaInputProps = {
 const styles = {
   container: "mb-1",
   label: "block font-semibold mb-2",
-  textarea: "w-full border rounded-md text-slate-950 resize-none outline-none",
+  textarea:
+    "w-full border rounded-md text-white resize-none outline-none bg-gray-900 border-gray-600 caret-white",
 };
 
 const TextareaInput = ({
