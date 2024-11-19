@@ -1,6 +1,7 @@
 {
   "name": "binary-string-converter",
   "version": "0.1.0",
+  "description": "Web tool to simplify the process of converting binary data to text and vice versa.",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,6 +10,12 @@
     "lint": "next lint",
     "test": "jest"
   },
+  "author": {
+    "name": "Khamisi Lawrence",
+    "email": "khamisilawrence.jm@gmail.com",
+    "url": "https://khamisilawrence.github.io"
+  },
+  "license": "MIT",
   "dependencies": {
     "binary-string-converter": "file:",
     "next": "14.2.15",
