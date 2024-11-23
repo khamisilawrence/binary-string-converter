@@ -13,6 +13,33 @@ export const metadata: Metadata = {
   authors: [
     { name: "Khamisi Lawrence", url: "https://github.com/khamisilawrence" },
   ],
+  icons: {
+    icon: "/favicon.ico", // Main favicon
+    shortcut: "/favicon.ico", // Shortcut icon
+    apple: "/apple-touch-icon.png", // Apple Touch Icon
+    other: [
+      {
+        rel: "icon",
+        sizes: "192x192",
+        url: "/android-chrome-192x192.png", // Android icon
+      },
+      {
+        rel: "icon",
+        sizes: "512x512",
+        url: "/android-chrome-512x512.png", // Android icon
+      },
+      {
+        rel: "icon",
+        sizes: "16x16",
+        url: "/favicon-16x16.png", // Android icon
+      },
+      {
+        rel: "icon",
+        sizes: "512x512",
+        url: "/favicon-32x32.png", // Android icon
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -22,7 +49,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={`${inter.className} flex flex-col justify-evenly min-h-screen`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
