@@ -109,7 +109,7 @@ const App = () => {
   return (
     <>
       <Header>{headerTextContent}</Header>
-      <main className="py-4 px-8">
+      <main className="py-4 lg:py-2 xl:py-8 px-8">
         <section id="inputSection" className="">
           <TextareaInput
             identifier="input"
