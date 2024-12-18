@@ -141,8 +141,4 @@ npm test
 
 ## License
 
-This project is licensed under the [MIT License](https://opensource.org/license/mit).
-
-## Maintainer
-
-Developed and maintained by **[Khamisi Lawrence](https://github.com/khamisilawrence)**.
+This project is licensed under the [MIT License](https://opensource.org/license/mit). See [`LICENSE`](/LICENSE) for details.
