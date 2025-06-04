@@ -18,7 +18,7 @@
   "license": "MIT",
   "dependencies": {
     "binary-string-converter": "file:",
-    "next": "^15.2.3",
+    "next": "^15.3.3",
     "react": "^18",
     "react-dom": "^18"
   },
